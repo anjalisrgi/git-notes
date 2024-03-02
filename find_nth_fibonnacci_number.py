@@ -9,3 +9,7 @@ def Fibonacci(n):
         return 1
     else:
         return Fibonacci(n-1)+Fibonacci(n-2)
+ 
+# Driver Program
+ 
+print(Fibonacci(9))
